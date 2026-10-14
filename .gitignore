@@ -1,0 +1,22 @@
+# Python environments and generated metadata
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Regenerable Spark data layers and large model artifacts
+data/bronze/
+data/silver/
+data/gold/
+data/raw/*.xlsx
+outputs/models/
+outputs/predictions/
+
+# Local editor and OS files
+.idea/
+.vscode/
+.DS_Store

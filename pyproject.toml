@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mobilite-spark"
+version = "0.1.0"
+description = "Pipeline Spark et apprentissage automatique pour l'enquête mobilité"
+requires-python = ">=3.10"
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["spark: requires a local Spark session"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

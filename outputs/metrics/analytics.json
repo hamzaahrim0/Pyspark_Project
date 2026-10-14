@@ -1,0 +1,55 @@
+{
+  "observed_mobility_rate": 3.933135057950729,
+  "mobility_rate_limitation": "Les individus sans déplacement sont absents du fichier observé.",
+  "od_reconciliation": {
+    "spark_total": 6699228.017050741,
+    "reference_total": 6699228.017050738,
+    "mismatched_cells": 0.0
+  },
+  "intra_strate_share_raw": 0.6927529876110076,
+  "intra_strate_share_weighted": 0.6828100109682312,
+  "intermodal_share_raw": 0.026685670430873807,
+  "intermodal_share_weighted": 0.027834596053384012,
+  "insights": [
+    {
+      "label": "Mode dominant (APied), part pondérée",
+      "value": "69.19%"
+    },
+    {
+      "label": "Mode dominant (APied), part brute",
+      "value": "69.99%"
+    },
+    {
+      "label": "Part des déplacements intra-strate pondérée",
+      "value": "68.28%"
+    },
+    {
+      "label": "Part des déplacements intra-strate brute",
+      "value": "69.28%"
+    },
+    {
+      "label": "Part modale intermodale pondérée",
+      "value": "2.78%"
+    },
+    {
+      "label": "Heure de départ la plus active (pondérée)",
+      "value": "7 h (621038.83 déplacements extrapolés)"
+    },
+    {
+      "label": "Motif le plus fréquent (Retour domicile), déplacements pondérés",
+      "value": "2883958.20"
+    },
+    {
+      "label": "Durée moyenne pondérée",
+      "value": "19.16 minutes"
+    },
+    {
+      "label": "Coût moyen pondéré par mode (hors valeurs aberrantes)",
+      "value": "80.85 unités déclarées"
+    },
+    {
+      "label": "Total OD pondéré réconcilié avec le pivot",
+      "value": "6699228.017"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "k": 9,
+  "silhouette": 0.3179796455475339,
+  "scores": [
+    {
+      "k": 2,
+      "silhouette": 0.2780619837458855,
+      "wssse": 20257816.469924074
+    },
+    {
+      "k": 3,
+      "silhouette": 0.2624210993052784,
+      "wssse": 18591778.6318461
+    },
+    {
+      "k": 4,
+      "silhouette": 0.24887942291430748,
+      "wssse": 16713116.358365996
+    },
+    {
+      "k": 5,
+      "silhouette": 0.2912661697188974,
+      "wssse": 14919007.40319438
+    },
+    {
+      "k": 6,
+      "silhouette": 0.2920065774402348,
+      "wssse": 13852927.062812144
+    },
+    {
+      "k": 7,
+      "silhouette": 0.3024162524667448,
+      "wssse": 13088637.37313157
+    },
+    {
+      "k": 8,
+      "silhouette": 0.2689722951830419,
+      "wssse": 12718392.47221021
+    },
+    {
+      "k": 9,
+      "silhouette": 0.3179796455475339,
+      "wssse": 12132713.615860125
+    },
+    {
+      "k": 10,
+      "silhouette": 0.29556989498996855,
+      "wssse": 11740754.736556927
+    }
+  ],
+  "stability": [
+    {
+      "seed_left": 42,
+      "seed_right": 43,
+      "adjusted_rand_index": 0.653682465823693
+    },
+    {
+      "seed_left": 42,
+      "seed_right": 44,
+      "adjusted_rand_index": 0.551699606637208
+    },
+    {
+      "seed_left": 43,
+      "seed_right": 44,
+      "adjusted_rand_index": 0.5949852376424883
+    }
+  ],
+  "cluster_names": [
+    [
+      5,
+      "Usagers du collectif"
+    ],
+    [
+      1,
+      "Marche dominante"
+    ],
+    [
+      3,
+      "Marche dominante"
+    ],
+    [
+      2,
+      "Usagers du collectif"
+    ],
+    [
+      6,
+      "Usagers du collectif"
+    ],
+    [
+      7,
+      "Marche dominante"
+    ],
+    [
+      4,
+      "Marche dominante"
+    ],
+    [
+      0,
+      "Marche dominante"
+    ],
+    [
+      8,
+      "Marche dominante"
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+paths:
+  source: data/raw/donnees_deplacement_PSpark 2026.xlsx
+  bronze: data/bronze
+  silver: data/silver/deplacement
+  gold: data/gold/deplacement
+  outputs: outputs
+seed: 42
+split:
+  train_fraction: 0.8
+spark:
+  master: local[*]
+  shuffle_partitions: 16
+  driver_memory: 4g
+  timezone: UTC
+  adaptive: true
+  java_home: ""
+ml:
+  max_trees: 30
+  max_depth: 8
+  cv_num_trees: 10
+  cv_folds: 3
+  use_survey_weight: false
+  target: moyen_transport

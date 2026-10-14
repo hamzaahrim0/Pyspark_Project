@@ -1,0 +1,9 @@
+assertion,expected,observed,status
+key_unique,une clé par déplacement,45605/45605,OK
+mode_count_matches_nb_trajets,0 ligne incohérente,0,OK
+duration_matches_elapsed_time,écart ≤ 1 minute,0,OK
+weight_constant_per_household,0 ménage à poids multiples,0,OK
+quarter_to_stratum_one_to_one,0 quartier associé à plusieurs strates,1,KO
+intermodal_has_multiple_trips,Intermodal implique nb_trajets ≥ 2,0,OK
+walking_has_single_trip,APied implique nb_trajets = 1,0,OK
+known_strata_have_known_family,strates connues dans D/G/P/R,0,OK
