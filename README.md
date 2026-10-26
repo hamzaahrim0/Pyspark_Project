@@ -1,6 +1,6 @@
 # Mobilité à Dakar — pipeline Spark et apprentissage automatique
 
-Projet d’analyse de l’enquête ménages-déplacements de Dakar, Guédiawaye, Pikine et Rufisque. La présentation est structurée autour de **Spark (60 %)** — ingestion, qualité, transformations, EDA — et du **machine learning (40 %)**, dont la prédiction du mode de transport.
+Projet d’analyse de l’enquête ménages-déplacements de Dakar, Guédiawaye, Pikine et Rufisque. La présentation est structurée autour de **Spark**  — ingestion, qualité, transformations, EDA — et du **machine learning**, dont la prédiction du mode de transport.
 
 ## Lancement
 
